@@ -95,6 +95,11 @@ public class Adactin {
 		WebElement ordernum = driver.findElement(By.id("order_no"));
 		base.text(ordernum);
 
+//		Thread.sleep(8000);
+//		WebElement orderno = driver.findElement(By.id("order_no"));
+//		String name = orderno.getAttribute("value");
+//		System.out.println(name);
+		
 		Thread.sleep(8000);
 		WebElement orderno = driver.findElement(By.id("order_no"));
 		String name = orderno.getAttribute("value");
